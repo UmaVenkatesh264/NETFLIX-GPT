@@ -1,8 +1,11 @@
-function App() {
+import Body from "./components/Body"
 
-  return (
-  <h1 className="underline text-5xl">Hello world!</h1>
-  );
+const App = () =>{
+  return(
+    <>
+      <Body />
+    </>
+  )
 }
 
-export default App
+export default App;
